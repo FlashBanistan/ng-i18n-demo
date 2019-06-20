@@ -5,9 +5,9 @@
     "ng": "ng",
     "int:extract": "ng xi18n --output-path src/locale",
     "start": "ng serve",
-    "start:es-MX": "ng serve --configuration=es-MX",
+    "start:es": "ng serve --configuration=es",
     "build": "ng build",
-    "build:es-MX": "ng build --configuration=es-MX",
+    "build:es": "ng build --configuration=es",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

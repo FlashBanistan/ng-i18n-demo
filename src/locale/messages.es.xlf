@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="e8bf333275d3556b595a1ed49f4376dd3e9ac01c" datatype="html">
         <source>Welcome to my app!</source>
+        <target>Bienvenido a mi app!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">1</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="5f57663c051c1451f0b6302315ac6a24bfc0df7c" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {no messages} =1 {one message} few {<x id="INTERPOLATION" equiv-text="{{newMessages}}"/> messages} other {<x id="INTERPOLATION" equiv-text="{{newMessages}}"/> messages} }</source>
+        <target>{VAR_PLURAL, plural, =0 {no mensajes} =1 {1 mensaje} few {<x id="INTERPOLATION" equiv-text="{{newMessages}}"/> mensajes} other {<x id="INTERPOLATION" equiv-text="{{newMessages}}"/> mensajes} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
