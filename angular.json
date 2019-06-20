@@ -29,6 +29,14 @@
             "scripts": []
           },
           "configurations": {
+            "es-MX": {
+              "aot": true,
+              "outputPath": "dist/i18n-demo-es-MX/",
+              "i18nFile": "src/locale/messages.es-MX.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es-MX",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -61,6 +69,9 @@
             "browserTarget": "i18n-demo:build"
           },
           "configurations": {
+            "es-MX": {
+              "browserTarget": "i18n-demo:build:es-MX"
+            },
             "production": {
               "browserTarget": "i18n-demo:build:production"
             }
